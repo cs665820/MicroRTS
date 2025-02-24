@@ -39,8 +39,8 @@ public class NaiveMCTS extends AIWithComputationBudget implements InterruptibleA
     
     protected int player;
     
-    public float epsilon_0 = 0.2f;
-    public float epsilon_l = 0.25f;
+    public float epsilon_0 = 0.4f;
+    public float epsilon_l = 0.2f;
     public float epsilon_g = 0.0f;
 
     // these variables are for using a discount factor on the epsilon values above. My experiments indicate that things work better without discount
